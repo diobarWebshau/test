@@ -1,3 +1,5 @@
+PowerShell
+
 crear un archivo  --> New-Item nombre_archivo.txt -ItemType File
 crear una carpeta --> mkdir nombre_carpeta
 eliminar un archivo --> Remove-Item nombre_archivo.txt
@@ -10,3 +12,37 @@ agregar contenido a un archivo --> Add-Content nombre_archivo.txt "Contenido adi
 copiar un archivo --> Copy-Item nombre_archivo.txt nombre_carpeta
 mover un archivo --> Move-Item nombre_archivo.txt nombre_carpeta
 renombrar un archivo --> Rename-Item nombre_archivo.txt nuevo_nombre_archivo.txt
+
+---
+
+Linux (bash)
+
+crear un archivo  --> touch nombre_archivo.txt
+crear una carpeta --> mkdir nombre_carpeta
+eliminar un archivo --> rm nombre_archivo.txt
+eliminar una carpeta --> rmdir nombre_carpeta
+eliminar una carpeta de manera recursiva --> rm -r nombre_carpeta
+listar archivos --> ls
+obtener el contenido de un archivo --> cat nombre_archivo.txt
+crear un archivo desde el contenido --> echo "Contenido del archivo" > nombre_archivo.txt
+agregar contenido a un archivo --> echo "Contenido adicional" >> nombre_archivo.txt
+copiar un archivo --> cp nombre_archivo.txt nombre_carpeta/
+mover un archivo --> mv nombre_archivo.txt nombre_carpeta/
+renombrar un archivo --> mv nombre_archivo.txt nuevo_nombre_archivo.txt
+
+---
+
+CMD (Windows Command Prompt)
+
+crear un archivo  --> type nul > nombre_archivo.txt
+crear una carpeta --> mkdir nombre_carpeta
+eliminar un archivo --> del nombre_archivo.txt
+eliminar una carpeta --> rmdir nombre_carpeta
+eliminar una carpeta de manera recursiva --> rmdir /s nombre_carpeta
+listar archivos --> dir
+obtener el contenido de un archivo --> type nombre_archivo.txt
+crear un archivo desde el contenido --> echo Contenido del archivo > nombre_archivo.txt
+agregar contenido a un archivo --> echo Contenido adicional >> nombre_archivo.txt
+copiar un archivo --> copy nombre_archivo.txt nombre_carpeta
+mover un archivo --> move nombre_archivo.txt nombre_carpeta
+renombrar un archivo --> ren nombre_archivo.txt nuevo_nombre_archivo.txt
