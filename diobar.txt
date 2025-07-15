@@ -1,0 +1,12 @@
+ crear un archivo  --> New-Item nombre_archivo.txt -ItemType File
+ crear una carpeta --> mkdir nombre_carpeta
+ eliminar un archivo --> Remove-Item nombre_archivo.txt
+ eliminar una carpeta --> Remove-Item nombre_carpeta
+ eliminar una carpeta de manera recursiva --> Remove-Item nombre_carpeta -Recurse
+ listar archivos --> Get-ChildItem o dir
+ obtener el contenido de un archivo --> Get-Content nombre_archivo.txt
+ crear un archivo desde el contenido --> Set-Content nombre_archivo.txt "Contenido del archivo"
+ agregar contenido a un archivo --> Add-Content nombre_archivo.txt "Contenido adicional"
+ copiar un archivo --> Copy-Item nombre_archivo.txt nombre_carpeta
+ mover un archivo --> Move-Item nombre_archivo.txt nombre_carpeta
+ renombrar un archivo --> Rename-Item nombre_archivo.txt nuevo_nombre_archivo.txt
